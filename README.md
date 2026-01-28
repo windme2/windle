@@ -24,7 +24,6 @@ A modern word puzzle game built with React and TypeScript. Challenge yourself wi
 - 🏆 **Survival Mode** - 20 rounds with progressive difficulty (3 lives)
 
 ### 🎯 Game Features
-- 🎨 **Dark/Light Mode** - Choose your preferred theme or use auto mode
 - 📊 **Statistics Tracking** - Track performance, streaks, and high scores
 - 🔥 **Streak System** - Build up combos by answering correctly
 - ⏱️ **Timer** - Track your solving speed
@@ -47,7 +46,7 @@ A modern word puzzle game built with React and TypeScript. Challenge yourself wi
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/windle.git
+git clone https://github.com/windme2/windle.git
 cd windle
 ```
 
@@ -98,24 +97,6 @@ npm run preview
 | `postcss.config.js` | 🎯 PostCSS plugins setup |
 | `tsconfig.json` | 📘 TypeScript compiler options |
 | `components.json` | 🧩 shadcn/ui component configuration |
-
----
-
-## 🏗️ Project Structure
-
-```
-src/
-├── games/              # Game implementations
-│   ├── fill-missing/  # Fill Missing Letters game
-│   └── word-hint/     # Word Hint game
-├── components/
-│   ├── core/          # Core game components
-│   ├── shared/        # Reusable components
-│   └── ui/            # UI components
-├── hooks/             # Custom React hooks
-├── constants/         # Game data and word banks
-└── lib/               # Utility functions
-```
 
 ---
 
